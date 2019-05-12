@@ -1,5 +1,5 @@
 ---
-- hosts: 192.168.33.50
+- hosts: 192.168.33.30
   sudo: yes
   vars:
     - newport: 80
