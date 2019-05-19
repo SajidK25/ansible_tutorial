@@ -1,9 +1,9 @@
 ---
-# - hosts: db
-#   become: yes
-#   roles:
-#     - monogodb
-- hosts: app
+- hosts: db
   become: yes
   roles:
-    - node
+    - monogodb
+# - hosts: app
+#   become: yes
+#   roles:
+#     - node
